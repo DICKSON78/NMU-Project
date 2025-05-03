@@ -75,7 +75,7 @@ ROOT_URLCONF = 'backend.urls'
 
 CORS_ALLOWED_ORIGINS = [
     "https://fyp1.pythonanywhere.com",
-    "https://nmu-dickson78s-projects.vercel.app",  # Replace with your Vercel frontend URL
+    "https://nmu.vercel.app",  # Replace with your Vercel frontend URL
     "http://localhost:3000",  # For local development
 ]
 

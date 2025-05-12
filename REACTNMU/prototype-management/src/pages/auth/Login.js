@@ -24,7 +24,7 @@ const Login = () => {
     setLoginSuccess(false);
   
     try {
-      const response = await axios.post(API_URL, { username:email, password }, {
+      const response = await axios.post(API_URL, { email, password }, {
         headers: { "Content-Type": "application/json" }
       });
   
